@@ -1,0 +1,13 @@
+env: "local"
+storage_link:
+  sql_driver: "postgres"
+  sql_user: "postgres"
+  sql_password: "postgres"
+  sql_host: "db"
+  sql_port: "5432"
+  sql_dbname: "gotest"
+  sql_sslmode: "disable"
+http_server:
+  address: ":8080"
+  timeout: "4s"
+  idle_timeout: "60s"
